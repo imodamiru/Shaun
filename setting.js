@@ -31,7 +31,7 @@ const ctext = (text, style = 1) => {
 //—————「 SYSTEM 」—————//
 global.baileysVersion = `${version}`
 global.baileys = require('@whiskeysockets/baileys') // Jangan di ubah
-global.usePairingCode = true // false = qrCode, true = pairingCode
+global.usePairingCode = false // false = qrCode, true = pairingCode
 global.sessionName = 'shun' // Jangan di ubah
 global.sp = '⭔' // Jangan di ubah
 global.gris = '`' // Jangan di ubah
@@ -39,8 +39,8 @@ global.hiasan = `	◦  ` // Jangan di ubah
 global.wlcm = [] // Jangan di ubah
 global.wlcmm = [] // Jangan di ubah
 global.wm = `Copyright © 2024 Hardi.Lah` // footer text
-global.autobio = true // false = off, true = on
-global.autoread = true // false = off, true = on
+global.autobio = false // false = off, true = on
+global.autoread = false // false = off, true = on
 global.chatgpt = true // false = off, true = on
 //—————「 SYSTEM 」—————//
 
@@ -50,9 +50,9 @@ global.chatgpt = true // false = off, true = on
 global.saluran = '𝙹𝚘𝚒𝚗 𝙼𝚢 𝙲𝚑𝚊𝚗𝚗𝚎𝚕🎐' // Opsional 
 global.idsal = "120363285464032065@newsletter" // Opsional
 global.botname = 'Shun Ai' // Ini nama bot
-global.bottz = '6281266840823' // Ganti dengan nomor bot untuk mendapatkan code pairing 
+global.bottz = '94714115809' // Ganti dengan nomor bot untuk mendapatkan code pairing 
 global.packname = 'Shun Ai' // wm sticker
-global.author = `Date: ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\nCreator: g.dev/hardi \nBot: 0812-6684-0823` // wm sticker
+global.author = `Date: ${moment.tz('Asia/Colombo').format('DD/MM/YY')}\nCreator: g.dev/hardi \nBot: 0812-6684-0823` // wm sticker
 global.prefa = ['','!','.',',','🐤','🗿']
 global.versions = `${shun}`
 //—————「 BOT 」—————//
@@ -60,9 +60,9 @@ global.versions = `${shun}`
 
 
 //—————「 OWNER 」—————//
-global.ownername = 'Hardi' // Ubah jadi nama lu
-global.owner = ['6281378300839'] // Ubah pake nomor lu
-global.ownermail = ['hardiyans.dev@gmail.com'] // Opsional
+global.ownername = 'Damiru' // Ubah jadi nama lu
+global.owner = ['94714115809'] // Ubah pake nomor lu
+global.ownermail = ['damiruimo@gmail.com'] // Opsional
 //—————「 OWNER 」—————//
 
 
